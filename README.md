@@ -8,7 +8,7 @@ Incluidos archivos como:
 - **Documentación** diaria y de *Sprints*
 - Código en ***Java***
 ---
-Participantes:
+## Participantes:
 - David Chaves Rodríguez
 - Leonardo Fernández Albornoz
 - Adrian Roca Viqueira
