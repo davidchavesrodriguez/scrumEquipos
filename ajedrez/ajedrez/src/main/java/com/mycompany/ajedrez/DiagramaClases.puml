@@ -1,0 +1,44 @@
+@startuml
+enum Piezas{
+    -valor int
+    TORRE,PEON,CABALLO,
+    ALFIL,REY,DAMA
+    +Piezas(int valor)
+    + int getPiezas()
+    + void setPiezas()
+}
+
+enum ColorPieza{
+    BLANCA,NEGRA
+}
+
+class PiezaAjedrez{
+    -posicion point
+    -tipo Piezas
+    -color ColorPieza
+    +PiezaAjedrez(tipo Piezas,posicion point,color ColorPieza)
+    + tipo getTipo()
+    + void setTipo()
+    + point getPosicion()
+    + void setPosicion()
+    + ColorPieza getColor()
+    + void setColorPieza
+    +String toString()
+    +int getX()
+    +int getY()
+}
+
+class Tablero{
+    + static final TAMANHO int
+    - tablero [][] PiezaAjedrez
+    +Tablero()
+    +void generaTablero()
+    +boolean mover()
+    +String toString()
+}
+
+PiezaAjedrez <|-- Tablero
+Piezas <|-- PiezaAjedrez
+ColorPieza <|-- PiezaAjedrez
+
+@enduml
