@@ -24,17 +24,17 @@ public class AppAjedrez {
                 System.out.print(t.toString() + "\nJUEGAN NEGRAS\n");
 
             }
-            System.out.print("Columna ficha: ");
+            System.out.print("Columna inicial ficha: ");
             posColumna = getNumColumna(sc.nextLine().toUpperCase().charAt(0));
 
-            System.out.print("Fila ficha:");
+            System.out.print("Fila inicial ficha: ");
             posFila = sc.nextInt() - 1;
             sc.nextLine();
 
-            System.out.print("Introuduce nueva columna: ");
+            System.out.print("Introduce nueva columna: ");
             columna = getNumColumna(sc.nextLine().toUpperCase().charAt(0));
 
-            System.out.print("Introuduce nueva fila: ");
+            System.out.print("Introduce nueva fila: ");
             fila = sc.nextInt() - 1;
             sc.nextLine();
 
@@ -48,7 +48,7 @@ public class AppAjedrez {
                 System.out.println("El movimiento es incorrecto");
             }
 
-            System.out.print("¿Continuar? Sí(0) No(1):");
+            System.out.print("¿Continuar? Sí(0) No(1): ");
 
             continuar = sc.nextInt();
             sc.nextLine();
