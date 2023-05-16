@@ -6,6 +6,7 @@ Incluidos archivos como:
 - Diagrama de **casos de uso**
 - Organización con ***Trello***
 - **Documentación** diaria y de *Sprints*
+- Wiki del repositorio
 - Código en ***Java***
 ---
 ## Participantes:
