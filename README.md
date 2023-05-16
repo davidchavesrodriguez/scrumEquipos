@@ -1,5 +1,5 @@
-#Proyecto Scrum Equipos
-##Descripción
+# Proyecto Scrum Equipos
+## Descripción
 Programa informático (casi) imitando el funcionamiento del **ajedrez**
 Incluidos archivos como:
 - Diagrama de **clases**
